@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="google-site-verification" content="efGnsA2q2UV1fFuZ_YsWh479fqSfGf1OdBWh4KKkz1M">
 
 <title>Sri | Web Designer & Developer</title>
 
@@ -12,15 +13,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
+
 html{
     scroll-behavior:smooth;
 }
+
 
 body{
     background:#fffaff;
@@ -29,7 +33,10 @@ body{
     overflow-x:hidden;
 }
 
-/* NAVBAR */
+
+/* =========================
+   NAVBAR
+========================= */
 
 nav{
     position:fixed;
@@ -55,6 +62,7 @@ nav{
     z-index:1000;
 }
 
+
 .brand{
     font-family:"Space Grotesk",sans-serif;
     font-size:23px;
@@ -62,9 +70,11 @@ nav{
     padding-left:10px;
 }
 
+
 .brand span{
     color:#b16be3;
 }
+
 
 nav ul{
     display:flex;
@@ -73,6 +83,7 @@ nav ul{
     align-items:center;
 }
 
+
 nav ul a{
     color:#746b7d;
     text-decoration:none;
@@ -80,9 +91,11 @@ nav ul a{
     transition:.3s;
 }
 
+
 nav ul a:hover{
     color:#8b4fc3;
 }
+
 
 .nav-contact{
     background:#211b2d;
@@ -92,12 +105,15 @@ nav ul a:hover{
     font-weight:600;
 }
 
+
 .nav-contact:hover{
     background:#8b4fc3;
 }
 
 
-/* HERO */
+/* =========================
+   HERO
+========================= */
 
 .hero{
     min-height:100vh;
@@ -111,6 +127,7 @@ nav ul a:hover{
     position:relative;
     overflow:hidden;
 }
+
 
 .glow{
     position:absolute;
@@ -127,17 +144,20 @@ nav ul a:hover{
     pointer-events:none;
 }
 
+
 .glow.one{
     background:#d9c4ff;
     top:-200px;
     left:-150px;
 }
 
+
 .glow.two{
     background:#ffb9dc;
     right:-200px;
     bottom:-200px;
 }
+
 
 .hero-inner{
     width:min(1150px,100%);
@@ -149,6 +169,7 @@ nav ul a:hover{
 
     align-items:center;
 }
+
 
 .availability{
     display:inline-flex;
@@ -170,6 +191,7 @@ nav ul a:hover{
     margin-bottom:25px;
 }
 
+
 .dot{
     width:7px;
     height:7px;
@@ -180,6 +202,7 @@ nav ul a:hover{
 
     box-shadow:0 0 12px #6bd89b;
 }
+
 
 .hero h1{
     font-family:"Space Grotesk",sans-serif;
@@ -193,6 +216,7 @@ nav ul a:hover{
     margin-bottom:28px;
 }
 
+
 .gradient{
     background:linear-gradient(
         90deg,
@@ -203,6 +227,7 @@ nav ul a:hover{
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 }
+
 
 .hero-text{
     color:#777080;
@@ -216,11 +241,13 @@ nav ul a:hover{
     margin-bottom:35px;
 }
 
+
 .hero-buttons{
     display:flex;
     gap:14px;
     flex-wrap:wrap;
 }
+
 
 .btn{
     text-decoration:none;
@@ -236,10 +263,12 @@ nav ul a:hover{
     transition:.3s;
 }
 
+
 .primary{
     background:#211b2d;
     color:white;
 }
+
 
 .primary:hover{
     transform:translateY(-3px);
@@ -247,6 +276,7 @@ nav ul a:hover{
 
     box-shadow:0 15px 35px rgba(130,75,170,.2);
 }
+
 
 .outline{
     color:#4d4357;
@@ -256,6 +286,7 @@ nav ul a:hover{
     background:white;
 }
 
+
 .outline:hover{
     background:#fff3fa;
 
@@ -263,7 +294,9 @@ nav ul a:hover{
 }
 
 
-/* HERO VISUAL */
+/* =========================
+   HERO VISUAL
+========================= */
 
 .hero-visual{
     position:relative;
@@ -276,6 +309,7 @@ nav ul a:hover{
 
     justify-content:center;
 }
+
 
 .orb{
     width:310px;
@@ -302,6 +336,7 @@ nav ul a:hover{
     animation:float 5s ease-in-out infinite;
 }
 
+
 @keyframes float{
 
     0%,100%{
@@ -313,6 +348,7 @@ nav ul a:hover{
     }
 
 }
+
 
 .floating-card{
     position:absolute;
@@ -330,15 +366,18 @@ nav ul a:hover{
     box-shadow:0 25px 60px rgba(100,60,120,.13);
 }
 
+
 .card-one{
     top:50px;
     right:0;
 }
 
+
 .card-two{
     bottom:50px;
     left:0;
 }
+
 
 .card-title{
     color:#938a9b;
@@ -347,6 +386,7 @@ nav ul a:hover{
 
     margin-bottom:5px;
 }
+
 
 .card-value{
     color:#2a2233;
@@ -357,7 +397,9 @@ nav ul a:hover{
 }
 
 
-/* TECHNOLOGY */
+/* =========================
+   TECHNOLOGY
+========================= */
 
 .tech-strip{
     border-top:1px solid #eee3ec;
@@ -385,17 +427,21 @@ nav ul a:hover{
 }
 
 
-/* GENERAL */
+/* =========================
+   GENERAL
+========================= */
 
 section{
     padding:120px 7%;
 }
+
 
 .container{
     width:min(1100px,100%);
 
     margin:auto;
 }
+
 
 .eyebrow{
     color:#9b5bc5;
@@ -411,6 +457,7 @@ section{
     margin-bottom:15px;
 }
 
+
 .section-heading{
     font-family:"Space Grotesk",sans-serif;
 
@@ -422,7 +469,9 @@ section{
 }
 
 
-/* SERVICES */
+/* =========================
+   SERVICES
+========================= */
 
 .services-grid{
     display:grid;
@@ -431,6 +480,7 @@ section{
 
     gap:16px;
 }
+
 
 .service{
     padding:32px;
@@ -449,6 +499,7 @@ section{
         0 10px 35px rgba(100,60,120,.04);
 }
 
+
 .service:hover{
     transform:translateY(-8px);
 
@@ -460,6 +511,7 @@ section{
         0 20px 50px rgba(120,70,150,.10);
 }
 
+
 .service-number{
     color:#b3a8b7;
 
@@ -468,6 +520,7 @@ section{
     margin-bottom:45px;
 }
 
+
 .service h3{
     font-family:"Space Grotesk",sans-serif;
 
@@ -475,6 +528,7 @@ section{
 
     margin-bottom:14px;
 }
+
 
 .service p{
     color:#817887;
@@ -485,11 +539,14 @@ section{
 }
 
 
-/* PROJECT */
+/* =========================
+   PROJECT
+========================= */
 
 .project-section{
     background:#fff5fb;
 }
+
 
 .project{
     display:grid;
@@ -507,6 +564,7 @@ section{
     box-shadow:
         0 20px 60px rgba(120,70,140,.07);
 }
+
 
 .project-preview{
     min-height:420px;
@@ -530,6 +588,7 @@ section{
         );
 }
 
+
 .browser{
     width:78%;
 
@@ -543,11 +602,13 @@ section{
         0 25px 70px rgba(90,50,100,.2);
 }
 
+
 .browser-top{
     padding:9px 12px;
 
     background:#28222f;
 }
+
 
 .browser-dot{
     display:inline-block;
@@ -562,6 +623,7 @@ section{
     margin-right:4px;
 }
 
+
 .browser-body{
     height:230px;
 
@@ -575,6 +637,7 @@ section{
         );
 }
 
+
 .browser-body h4{
     font-size:22px;
 
@@ -582,6 +645,7 @@ section{
 
     color:white;
 }
+
 
 .browser-line{
     width:65%;
@@ -595,6 +659,7 @@ section{
     margin-top:12px;
 }
 
+
 .project-info{
     padding:50px;
 
@@ -605,6 +670,7 @@ section{
     justify-content:center;
 }
 
+
 .project-info h3{
     font-family:"Space Grotesk",sans-serif;
 
@@ -612,6 +678,7 @@ section{
 
     margin-bottom:18px;
 }
+
 
 .project-info p{
     color:#7e7584;
@@ -621,6 +688,7 @@ section{
     margin-bottom:25px;
 }
 
+
 .tags{
     display:flex;
 
@@ -628,6 +696,7 @@ section{
 
     flex-wrap:wrap;
 }
+
 
 .tag{
     padding:7px 12px;
@@ -644,7 +713,9 @@ section{
 }
 
 
-/* PROCESS */
+/* =========================
+   PROCESS
+========================= */
 
 .process-grid{
     display:grid;
@@ -654,11 +725,13 @@ section{
     gap:15px;
 }
 
+
 .process{
     padding:25px;
 
     border-top:1px solid #e8dfe9;
 }
+
 
 .process span{
     color:#a162c9;
@@ -666,11 +739,13 @@ section{
     font-size:12px;
 }
 
+
 .process h3{
     margin:20px 0 10px;
 
     font-family:"Space Grotesk",sans-serif;
 }
+
 
 .process p{
     color:#837a88;
@@ -681,7 +756,9 @@ section{
 }
 
 
-/* ABOUT */
+/* =========================
+   ABOUT
+========================= */
 
 .about{
     display:grid;
@@ -692,6 +769,7 @@ section{
 
     align-items:center;
 }
+
 
 .about-visual{
     height:370px;
@@ -722,6 +800,7 @@ section{
         0 25px 60px rgba(120,70,150,.08);
 }
 
+
 .initial{
     font-family:"Space Grotesk",sans-serif;
 
@@ -741,6 +820,7 @@ section{
     -webkit-text-fill-color:transparent;
 }
 
+
 .about h2{
     font-family:"Space Grotesk",sans-serif;
 
@@ -749,6 +829,7 @@ section{
     margin-bottom:22px;
 }
 
+
 .about p{
     color:#817887;
 
@@ -756,6 +837,7 @@ section{
 
     margin-bottom:18px;
 }
+
 
 .skills{
     display:flex;
@@ -766,6 +848,7 @@ section{
 
     margin-top:25px;
 }
+
 
 .skill{
     padding:8px 13px;
@@ -782,185 +865,247 @@ section{
 }
 
 
-/* PRICING */
+/* =========================
+   WHO I BUILD FOR
+========================= */
 
-.pricing-grid{
+#why-me{
+    background:white;
+}
+
+
+.extra-space{
+    height:55px;
+}
+
+
+.why-grid{
     display:grid;
 
     grid-template-columns:repeat(4,1fr);
 
+    gap:15px;
+}
+
+
+.why-card{
+    padding:28px;
+
+    border:1px solid #eee3ec;
+
+    border-radius:20px;
+
+    background:#fffaff;
+
+    transition:.3s;
+}
+
+
+.why-card:hover{
+    transform:translateY(-6px);
+
+    border-color:#dfc7eb;
+
+    box-shadow:0 15px 40px rgba(120,70,150,.08);
+}
+
+
+.why-number{
+    color:#a162c9;
+
+    font-size:12px;
+
+    margin-bottom:35px;
+}
+
+
+.why-card h3{
+    font-family:"Space Grotesk",sans-serif;
+
+    margin-bottom:12px;
+
+    font-size:20px;
+}
+
+
+.why-card p{
+    color:#817887;
+
+    line-height:1.7;
+
+    font-size:13px;
+}
+
+
+/* =========================
+   POSTER DESIGN
+========================= */
+
+.poster-section{
+    background:#fff5fb;
+}
+
+
+.poster-grid{
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
     gap:18px;
 }
 
-.price-card{
+
+.poster-card{
+    min-height:320px;
+
+    padding:30px;
+
+    border-radius:22px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-end;
+
+    overflow:hidden;
+
     position:relative;
 
-    background:white;
+    background:
+        linear-gradient(
+            145deg,
+            #f0e5ff,
+            #ffd8eb
+        );
 
-    border:1px solid #eee2ec;
+    border:1px solid #eaddec;
 
-    border-radius:24px;
-
-    padding:32px;
-
-    box-shadow:
-        0 12px 40px rgba(100,60,120,.05);
-
-    transition:.35s;
+    transition:.4s;
 }
 
-.price-card:hover{
+
+.poster-card:nth-child(2){
+    background:
+        linear-gradient(
+            145deg,
+            #e7ddff,
+            #f8c9df
+        );
+}
+
+
+.poster-card:nth-child(3){
+    background:
+        linear-gradient(
+            145deg,
+            #ffe0ed,
+            #e5d9ff
+        );
+}
+
+
+.poster-card:hover{
     transform:translateY(-8px);
 
     box-shadow:
         0 25px 55px rgba(120,70,150,.12);
-
-    border-color:#dfc7eb;
 }
 
-.price-card.popular{
-    border:2px solid #c48ae5;
 
-    background:
-        linear-gradient(
-            180deg,
-            #fff7fc,
-            #ffffff
-        );
-}
+.poster-label{
+    display:inline-block;
 
-.popular-tag{
-    position:absolute;
+    width:max-content;
 
-    top:-13px;
-
-    left:50%;
-
-    transform:translateX(-50%);
-
-    background:#211b2d;
-
-    color:white;
-
-    padding:6px 15px;
+    padding:7px 12px;
 
     border-radius:20px;
 
-    font-size:10px;
+    background:rgba(255,255,255,.75);
 
-    font-weight:bold;
+    color:#775681;
 
-    letter-spacing:1px;
+    font-size:11px;
 
-    white-space:nowrap;
+    margin-bottom:12px;
 }
 
-.price-label{
-    font-size:12px;
 
-    color:#9a5fbd;
-
-    letter-spacing:2px;
-
-    font-weight:bold;
-}
-
-.price-top h3{
+.poster-card h3{
     font-family:"Space Grotesk",sans-serif;
 
-    font-size:38px;
+    font-size:25px;
 
-    margin:15px 0 8px;
-
-    color:#211b2d;
+    margin-bottom:8px;
 }
 
-.price-top p{
-    color:#827987;
+
+.poster-card p{
+    color:#665e6d;
 
     font-size:13px;
 
     line-height:1.6;
 }
 
-.price-line{
-    height:1px;
 
-    background:#eee5ed;
+/* =========================
+   WHY CHOOSE ME
+========================= */
 
-    margin:28px 0;
+.choose-section{
+    background:white;
 }
 
-.price-card ul{
-    list-style:none;
 
-    display:flex;
+.choose-grid{
+    display:grid;
 
-    flex-direction:column;
+    grid-template-columns:repeat(4,1fr);
 
     gap:15px;
-
-    margin-bottom:30px;
-
-    padding:0;
 }
 
-.price-card li{
-    color:#665e6d;
+
+.choose{
+    padding:28px;
+
+    border-top:1px solid #e8dfe9;
+}
+
+
+.choose span{
+    color:#a162c9;
+
+    font-size:12px;
+}
+
+
+.choose h3{
+    font-family:"Space Grotesk",sans-serif;
+
+    margin:18px 0 10px;
+}
+
+
+.choose p{
+    color:#837a88;
+
+    line-height:1.7;
 
     font-size:13px;
 }
 
-.price-btn{
-    display:block;
 
-    text-align:center;
-
-    padding:13px;
-
-    border-radius:30px;
-
-    border:1px solid #dfd1e3;
-
-    color:#4d4357;
-
-    background:white;
-
-    text-decoration:none;
-
-    font-size:13px;
-
-    font-weight:600;
-
-    transition:.3s;
-}
-
-.price-btn:hover{
-    background:#fff0f8;
-
-    border-color:#c998df;
-}
-
-.price-btn.dark{
-    background:#211b2d;
-
-    color:white;
-
-    border-color:#211b2d;
-}
-
-.price-btn.dark:hover{
-    background:#8b4fc3;
-
-    border-color:#8b4fc3;
-}
-
-
-/* CTA */
+/* =========================
+   CTA
+========================= */
 
 .cta{
     padding-bottom:130px;
 }
+
 
 .cta-box{
     text-align:center;
@@ -983,6 +1128,7 @@ section{
         0 25px 70px rgba(120,70,150,.08);
 }
 
+
 .cta-box h2{
     font-family:"Space Grotesk",sans-serif;
 
@@ -993,14 +1139,19 @@ section{
     margin-bottom:18px;
 }
 
+
 .cta-box p{
     color:#817887;
 
     margin-bottom:30px;
+
+    line-height:1.7;
 }
 
 
-/* FOOTER */
+/* =========================
+   FOOTER
+========================= */
 
 footer{
     border-top:1px solid #eee3ec;
@@ -1021,15 +1172,19 @@ footer{
 }
 
 
-/* RESPONSIVE */
+/* =========================
+   RESPONSIVE
+========================= */
 
 @media(max-width:1000px){
 
-    .pricing-grid{
+    .why-grid,
+    .choose-grid{
         grid-template-columns:repeat(2,1fr);
     }
 
 }
+
 
 @media(max-width:850px){
 
@@ -1037,37 +1192,50 @@ footer{
         display:none;
     }
 
+
     .hero-inner,
     .project,
     .about{
         grid-template-columns:1fr;
     }
 
+
     .hero{
         padding-top:150px;
     }
+
 
     .hero-visual{
         min-height:350px;
     }
 
+
     .services-grid{
         grid-template-columns:1fr;
     }
+
 
     .process-grid{
         grid-template-columns:1fr 1fr;
     }
 
+
     .project-info{
         padding:35px;
     }
+
 
     .about-visual{
         height:300px;
     }
 
+
+    .poster-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
 }
+
 
 @media(max-width:500px){
 
@@ -1075,34 +1243,44 @@ footer{
         padding:85px 6%;
     }
 
+
     .hero h1{
         letter-spacing:-2px;
     }
 
+
     .process-grid,
-    .pricing-grid{
+    .why-grid,
+    .choose-grid,
+    .poster-grid{
         grid-template-columns:1fr;
     }
+
 
     .orb{
         width:240px;
         height:240px;
     }
 
+
     .card-one{
         right:-5px;
     }
+
 
     .card-two{
         left:-5px;
     }
 
+
     .project-preview{
         min-height:300px;
     }
 
+
     footer{
         flex-direction:column;
+
         gap:10px;
     }
 
@@ -1116,13 +1294,16 @@ footer{
 <body>
 
 
-<!-- NAVBAR -->
+<!-- =========================
+     NAVBAR
+========================= -->
 
 <nav>
 
     <div class="brand">
         Sri<span>.</span>
     </div>
+
 
     <ul>
 
@@ -1132,11 +1313,13 @@ footer{
             </a>
         </li>
 
+
         <li>
             <a href="#work">
                 Work
             </a>
         </li>
+
 
         <li>
             <a href="#about">
@@ -1144,11 +1327,20 @@ footer{
             </a>
         </li>
 
+
         <li>
-            <a href="#pricing">
-                Pricing
+            <a href="#why-me">
+                Why Me
             </a>
         </li>
+
+
+        <li>
+            <a href="#contact">
+                Contact
+            </a>
+        </li>
+
 
         <li>
             <a
@@ -1164,12 +1356,17 @@ footer{
 </nav>
 
 
-<!-- HERO -->
+
+<!-- =========================
+     HERO
+========================= -->
 
 <section class="hero">
 
     <div class="glow one"></div>
+
     <div class="glow two"></div>
+
 
     <div class="hero-inner">
 
@@ -1198,9 +1395,9 @@ footer{
 
             <p class="hero-text">
 
-                I design and develop modern websites and web
-                applications for people and businesses that want
-                to stand out online.
+                I design and develop modern websites, web
+                applications and creative digital designs for
+                people and businesses that want to stand out online.
 
             </p>
 
@@ -1216,7 +1413,7 @@ footer{
 
 
                 <a
-                    href="https://wa.me/919994274233?text=Hi%20Sri%2C%20I%20would%20like%20to%20discuss%20a%20website%20project."
+                    href="https://wa.me/919994274233?text=Hi%20Sri%2C%20I%20would%20like%20to%20discuss%20a%20website%20or%20design%20project."
                     class="btn outline"
                 >
                     Start a Project
@@ -1225,6 +1422,7 @@ footer{
             </div>
 
         </div>
+
 
 
         <div class="hero-visual">
@@ -1248,11 +1446,11 @@ footer{
             <div class="floating-card card-two">
 
                 <div class="card-title">
-                    PROJECT
+                    CREATIVE
                 </div>
 
                 <div class="card-value">
-                    CampusLoop
+                    Poster Design
                 </div>
 
             </div>
@@ -1264,25 +1462,39 @@ footer{
 </section>
 
 
-<!-- TECHNOLOGY -->
+
+<!-- =========================
+     TECHNOLOGY
+========================= -->
 
 <div class="tech-strip">
 
     <span>HTML</span>
+
     <span>CSS</span>
+
     <span>JavaScript</span>
+
     <span>PHP</span>
+
     <span>MySQL</span>
+
     <span>UI / UX</span>
+
+    <span>Creative Design</span>
 
 </div>
 
 
-<!-- SERVICES -->
+
+<!-- =========================
+     SERVICES
+========================= -->
 
 <section id="services">
 
     <div class="container">
+
 
         <div class="eyebrow">
             01 — Services
@@ -1311,14 +1523,13 @@ footer{
                 </h3>
 
                 <p>
-
                     Professional websites that help small
                     businesses build credibility and attract
                     customers online.
-
                 </p>
 
             </div>
+
 
 
             <div class="service">
@@ -1332,14 +1543,13 @@ footer{
                 </h3>
 
                 <p>
-
                     Modern personal websites for students,
                     creators and professionals to showcase
                     their work.
-
                 </p>
 
             </div>
+
 
 
             <div class="service">
@@ -1353,14 +1563,70 @@ footer{
                 </h3>
 
                 <p>
-
                     Functional web applications with clean
                     interfaces and database-powered features.
-
                 </p>
 
             </div>
 
+
+
+            <div class="service">
+
+                <div class="service-number">
+                    04
+                </div>
+
+                <h3>
+                    Poster Design
+                </h3>
+
+                <p>
+                    Creative posters for college events,
+                    workshops, businesses, promotions and
+                    social media.
+                </p>
+
+            </div>
+
+
+
+            <div class="service">
+
+                <div class="service-number">
+                    05
+                </div>
+
+                <h3>
+                    Social Media Designs
+                </h3>
+
+                <p>
+                    Attractive digital creatives designed
+                    to make your content look professional
+                    and engaging.
+                </p>
+
+            </div>
+
+
+
+            <div class="service">
+
+                <div class="service-number">
+                    06
+                </div>
+
+                <h3>
+                    Website Updates
+                </h3>
+
+                <p>
+                    Improvements, content updates and design
+                    changes to keep your existing website fresh.
+                </p>
+
+            </div>
 
         </div>
 
@@ -1369,7 +1635,10 @@ footer{
 </section>
 
 
-<!-- FEATURED PROJECT -->
+
+<!-- =========================
+     FEATURED PROJECT
+========================= -->
 
 <section
     class="project-section"
@@ -1397,14 +1666,15 @@ footer{
 
             <div class="project-preview">
 
-
                 <div class="browser">
 
 
                     <div class="browser-top">
 
                         <span class="browser-dot"></span>
+
                         <span class="browser-dot"></span>
+
                         <span class="browser-dot"></span>
 
                     </div>
@@ -1439,6 +1709,7 @@ footer{
                 </div>
 
             </div>
+
 
 
             <div class="project-info">
@@ -1492,7 +1763,10 @@ footer{
 </section>
 
 
-<!-- PROCESS -->
+
+<!-- =========================
+     PROCESS
+========================= -->
 
 <section>
 
@@ -1517,7 +1791,9 @@ footer{
 
             <div class="process">
 
-                <span>01</span>
+                <span>
+                    01
+                </span>
 
                 <h3>
                     Discover
@@ -1530,9 +1806,12 @@ footer{
             </div>
 
 
+
             <div class="process">
 
-                <span>02</span>
+                <span>
+                    02
+                </span>
 
                 <h3>
                     Design
@@ -1545,9 +1824,12 @@ footer{
             </div>
 
 
+
             <div class="process">
 
-                <span>03</span>
+                <span>
+                    03
+                </span>
 
                 <h3>
                     Develop
@@ -1560,9 +1842,12 @@ footer{
             </div>
 
 
+
             <div class="process">
 
-                <span>04</span>
+                <span>
+                    04
+                </span>
 
                 <h3>
                     Launch
@@ -1574,7 +1859,6 @@ footer{
 
             </div>
 
-
         </div>
 
     </div>
@@ -1582,7 +1866,10 @@ footer{
 </section>
 
 
-<!-- ABOUT -->
+
+<!-- =========================
+     ABOUT
+========================= -->
 
 <section id="about">
 
@@ -1596,6 +1883,7 @@ footer{
             </div>
 
         </div>
+
 
 
         <div>
@@ -1656,6 +1944,10 @@ footer{
                     Responsive Design
                 </span>
 
+                <span class="skill">
+                    Poster Design
+                </span>
+
             </div>
 
         </div>
@@ -1665,277 +1957,107 @@ footer{
 </section>
 
 
-<!-- PRICING -->
 
-<section id="pricing">
+<!-- =========================
+     WHO I BUILD FOR
+========================= -->
+
+<section id="why-me">
 
     <div class="container">
 
 
         <div class="eyebrow">
-            05 — Pricing
+            05 — Who I Build For
         </div>
 
 
         <h2 class="section-heading">
 
-            Simple pricing.<br>
-            No surprises.
+            Built for people<br>
+            with ideas.
 
         </h2>
 
 
-        <div class="pricing-grid">
+        <div class="why-grid">
 
 
-            <!-- MINI -->
+            <div class="why-card">
 
-            <div class="price-card">
-
-
-                <div class="price-top">
-
-                    <span class="price-label">
-                        MINI WEBSITE
-                    </span>
-
-
-                    <h3>
-                        ₹699
-                    </h3>
-
-
-                    <p>
-                        For simple personal websites.
-                    </p>
-
+                <div class="why-number">
+                    01
                 </div>
 
+                <h3>
+                    Small Businesses
+                </h3>
 
-                <div class="price-line"></div>
-
-
-                <ul>
-
-                    <li>
-                        ✓ 1-page website
-                    </li>
-
-                    <li>
-                        ✓ Mobile responsive
-                    </li>
-
-                    <li>
-                        ✓ Clean modern design
-                    </li>
-
-                    <li>
-                        ✓ Basic contact section
-                    </li>
-
-                </ul>
-
-
-                <a
-                    href="https://wa.me/919994274233?text=Hi%20Sri%2C%20I%20am%20interested%20in%20the%20Mini%20Website%20package."
-                    class="price-btn"
-                >
-                    Get Started
-                </a>
+                <p>
+                    Websites and promotional designs that
+                    help local businesses create a strong
+                    online presence.
+                </p>
 
             </div>
 
 
-            <!-- STANDARD -->
 
-            <div class="price-card">
+            <div class="why-card">
 
-
-                <div class="price-top">
-
-                    <span class="price-label">
-                        STANDARD
-                    </span>
-
-
-                    <h3>
-                        ₹1,499
-                    </h3>
-
-
-                    <p>
-                        For portfolios and personal brands.
-                    </p>
-
+                <div class="why-number">
+                    02
                 </div>
 
+                <h3>
+                    Students
+                </h3>
 
-                <div class="price-line"></div>
-
-
-                <ul>
-
-                    <li>
-                        ✓ Up to 4 pages
-                    </li>
-
-                    <li>
-                        ✓ Mobile responsive
-                    </li>
-
-                    <li>
-                        ✓ Modern UI design
-                    </li>
-
-                    <li>
-                        ✓ Contact section
-                    </li>
-
-                    <li>
-                        ✓ Basic animations
-                    </li>
-
-                </ul>
-
-
-                <a
-                    href="https://wa.me/919994274233?text=Hi%20Sri%2C%20I%20am%20interested%20in%20the%20Standard%20Website%20package."
-                    class="price-btn"
-                >
-                    Get Started
-                </a>
+                <p>
+                    Portfolio websites, college projects and
+                    creative designs to showcase your skills
+                    and work.
+                </p>
 
             </div>
 
 
-            <!-- BUSINESS -->
 
-            <div class="price-card popular">
+            <div class="why-card">
 
-
-                <div class="popular-tag">
-                    MOST POPULAR
+                <div class="why-number">
+                    03
                 </div>
 
+                <h3>
+                    Creators & Freelancers
+                </h3>
 
-                <div class="price-top">
-
-                    <span class="price-label">
-                        BUSINESS
-                    </span>
-
-
-                    <h3>
-                        ₹1,999
-                    </h3>
-
-
-                    <p>
-                        For small businesses and brands.
-                    </p>
-
-                </div>
-
-
-                <div class="price-line"></div>
-
-
-                <ul>
-
-                    <li>
-                        ✓ Up to 5 pages
-                    </li>
-
-                    <li>
-                        ✓ Premium UI design
-                    </li>
-
-                    <li>
-                        ✓ Mobile responsive
-                    </li>
-
-                    <li>
-                        ✓ Contact section
-                    </li>
-
-                    <li>
-                        ✓ Basic animations
-                    </li>
-
-                </ul>
-
-
-                <a
-                    href="https://wa.me/919994274233?text=Hi%20Sri%2C%20I%20am%20interested%20in%20the%20Business%20Website%20package."
-                    class="price-btn dark"
-                >
-                    Choose Business
-                </a>
+                <p>
+                    Personal websites and digital designs
+                    that help you present your work online.
+                </p>
 
             </div>
 
 
-            <!-- WEB APP -->
 
-            <div class="price-card">
+            <div class="why-card">
 
-
-                <div class="price-top">
-
-                    <span class="price-label">
-                        WEB APP
-                    </span>
-
-
-                    <h3>
-                        ₹2,999+
-                    </h3>
-
-
-                    <p>
-                        For custom interactive applications.
-                    </p>
-
+                <div class="why-number">
+                    04
                 </div>
 
+                <h3>
+                    Events & Organizations
+                </h3>
 
-                <div class="price-line"></div>
-
-
-                <ul>
-
-                    <li>
-                        ✓ Multiple pages
-                    </li>
-
-                    <li>
-                        ✓ Login & registration
-                    </li>
-
-                    <li>
-                        ✓ PHP & MySQL
-                    </li>
-
-                    <li>
-                        ✓ Database functionality
-                    </li>
-
-                    <li>
-                        ✓ Custom features
-                    </li>
-
-                </ul>
-
-
-                <a
-                    href="https://wa.me/919994274233?text=Hi%20Sri%2C%20I%20am%20interested%20in%20a%20Web%20App."
-                    class="price-btn"
-                >
-                    Discuss Project
-                </a>
+                <p>
+                    Event posters, promotional creatives and
+                    websites for workshops and organizations.
+                </p>
 
             </div>
-
 
         </div>
 
@@ -1944,7 +2066,205 @@ footer{
 </section>
 
 
-<!-- CONTACT -->
+
+<!-- =========================
+     POSTER DESIGN
+========================= -->
+
+<section class="poster-section">
+
+    <div class="container">
+
+
+        <div class="eyebrow">
+            06 — Creative Design
+        </div>
+
+
+        <h2 class="section-heading">
+
+            Posters that<br>
+            get noticed.
+
+        </h2>
+
+
+        <div class="poster-grid">
+
+
+            <div class="poster-card">
+
+                <span class="poster-label">
+                    EVENT POSTERS
+                </span>
+
+                <h3>
+                    Events & Workshops
+                </h3>
+
+                <p>
+                    Attractive posters designed to make
+                    your event information stand out.
+                </p>
+
+            </div>
+
+
+
+            <div class="poster-card">
+
+                <span class="poster-label">
+                    PROMOTIONAL
+                </span>
+
+                <h3>
+                    Business Promotions
+                </h3>
+
+                <p>
+                    Creative promotional designs for
+                    businesses, products and services.
+                </p>
+
+            </div>
+
+
+
+            <div class="poster-card">
+
+                <span class="poster-label">
+                    SOCIAL MEDIA
+                </span>
+
+                <h3>
+                    Digital Creatives
+                </h3>
+
+                <p>
+                    Social-media-ready designs for posts,
+                    announcements and campaigns.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     WHY CHOOSE ME
+========================= -->
+
+<section class="choose-section">
+
+    <div class="container">
+
+
+        <div class="eyebrow">
+            07 — Why Choose Me
+        </div>
+
+
+        <h2 class="section-heading">
+
+            Simple. Creative.<br>
+            Made for you.
+
+        </h2>
+
+
+        <div class="choose-grid">
+
+
+            <div class="choose">
+
+                <span>
+                    01
+                </span>
+
+                <h3>
+                    Custom Design
+                </h3>
+
+                <p>
+                    Every website and poster is designed
+                    around your idea, audience and purpose.
+                </p>
+
+            </div>
+
+
+
+            <div class="choose">
+
+                <span>
+                    02
+                </span>
+
+                <h3>
+                    Modern & Responsive
+                </h3>
+
+                <p>
+                    Clean designs that work smoothly across
+                    phones, tablets and desktops.
+                </p>
+
+            </div>
+
+
+
+            <div class="choose">
+
+                <span>
+                    03
+                </span>
+
+                <h3>
+                    Easy Communication
+                </h3>
+
+                <p>
+                    Clear communication throughout the
+                    design and development process.
+                </p>
+
+            </div>
+
+
+
+            <div class="choose">
+
+                <span>
+                    04
+                </span>
+
+                <h3>
+                    Support
+                </h3>
+
+                <p>
+                    Help with updates, improvements and
+                    getting your final work ready to share.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     CONTACT
+========================= -->
 
 <section
     class="cta"
@@ -1958,31 +2278,32 @@ footer{
 
 
             <div class="eyebrow">
-                06 — Let's Work Together
+                08 — Let's Work Together
             </div>
 
 
             <h2>
 
                 Have an idea?<br>
-                Let's build it.
+                Let's bring it to life.
 
             </h2>
 
 
             <p>
 
-                Tell me what you're thinking and let's turn
-                your idea into something people can experience.
+                Need a website or a creative poster?
+                Tell me what you need and contact me
+                for more details.
 
             </p>
 
 
             <a
-                href="https://wa.me/919994274233?text=Hi%20Sri%2C%20I%20would%20like%20to%20discuss%20a%20website%20project."
+                href="https://wa.me/919994274233?text=Hi%20Sri%2C%20I%20would%20like%20to%20discuss%20a%20website%20or%20design%20project."
                 class="btn primary"
             >
-                Start a Conversation →
+                Contact Me for More Details →
             </a>
 
 
@@ -1993,7 +2314,10 @@ footer{
 </section>
 
 
-<!-- FOOTER -->
+
+<!-- =========================
+     FOOTER
+========================= -->
 
 <footer>
 
@@ -2010,4 +2334,5 @@ footer{
 
 
 </body>
+
 </html>
